@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/soziali/static/css/main.f50db10b.css",
+    "main.js": "/soziali/static/js/main.8e8f2122.js",
+    "static/js/787.c3e51712.chunk.js": "/soziali/static/js/787.c3e51712.chunk.js",
+    "static/media/Saly-13.png": "/soziali/static/media/Saly-13.f50e987a9417564c0b42.png",
+    "static/media/sinMensajes.jpg": "/soziali/static/media/sinMensajes.98f39289185d0e26754a.jpg",
+    "static/media/imgPerfil.png": "/soziali/static/media/imgPerfil.3431635d5cd012f06c8b.png",
+    "static/media/globo.jfif": "/soziali/static/media/globo.687a235afe5e43f6e937.jfif",
+    "static/media/email.JPG": "/soziali/static/media/email.2c1291f00cd5f5052fc6.JPG",
+    "index.html": "/soziali/index.html",
+    "main.f50db10b.css.map": "/soziali/static/css/main.f50db10b.css.map",
+    "main.8e8f2122.js.map": "/soziali/static/js/main.8e8f2122.js.map",
+    "787.c3e51712.chunk.js.map": "/soziali/static/js/787.c3e51712.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f50db10b.css",
+    "static/js/main.8e8f2122.js"
+  ]
+}
