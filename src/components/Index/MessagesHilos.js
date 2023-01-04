@@ -41,9 +41,9 @@ const MessagesHilos= () => {
             id_hilo: hilo
         }
         console.log(texto_mensaje)
-
         axios.post(`${URL}/mensajes.php`, {  texto_mensaje, id_usuario, id_hilo })
             .then(res => {
+                console.log("mensaje enviado")
                 console.log(res.data)
                 const { nombre } = res.data.result[0];
                 setLoadGlobal(true)
