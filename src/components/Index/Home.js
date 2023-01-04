@@ -20,6 +20,7 @@ const Home = () => {
    
 
     useEffect(() => {
+        console.log(URL);
         setLoadGlobal(true)
         axios.get(`${URL}/temas.php`)
             .then(res => {
