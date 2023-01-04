@@ -22,7 +22,7 @@ const Home = () => {
     useEffect(() => {
         console.log(`${URL}/temas.php`);
         setLoadGlobal(true)
-        axios.get(`${URL}/temas.php`,{ headers: {'Access-Control-Allow-Origin': '*'}})
+        axios.get(`${URL}/temas.php`,{ headers: {'Access-Control-Allow-Origin': '*' , 'Content-Type': 'application/json'}})
             .then(res => {
                 setTemas(res.data)
                 console.log(res.data)
