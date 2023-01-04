@@ -92,6 +92,12 @@
         .data{
             width: 83px !important;
         }
+        .texto-user>*:first-child{
+            width: 90%;
+        }
+        .texto-user>*:not(:first-child){
+            width: 90%;
+        }
         .topics-table>*:first-child{
             width: 90%;
         }
