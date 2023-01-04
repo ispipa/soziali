@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import './Login.css'
 import Register from './Register';
-import { Navigate, useNavigate } from 'react-router-dom';
+import {Link, Navigate, useNavigate} from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setLoadingGlobal } from '../../store/slices/isLoading.slice';
 
@@ -86,7 +86,7 @@ if (isUser) {
                                     <input className={msgErr ? "inputInicio msg-error-input" : "inputInicio"} type="password" id="password" placeholder='Contraseña' required></input>
                                 </div>
                                 <div className='registrate'>
-                                    <p>¿No tienes cuenta?<a className='registrar' href='/registro'> Registrate</a></p>
+                                    <p>¿No tienes cuenta?<Link className='registrar' to={'/registro'}> Registrate</Link></p>
                                 </div>
                                 <div className='form-button'>
                                     <button>{isLoading ?
