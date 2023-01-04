@@ -22,7 +22,7 @@ const Home = () => {
     useEffect(() => {
         console.log(`${URL}/temas.php`);
         setLoadGlobal(true)
-        axios.get(`https://serversoziali-production.up.railway.app/temas.php`,{
+        axios.get('/temas.php',{
             headers: {'Access-Control-Allow-Origin': '*' , 'Content-Type': 'application/json'}})
             .then(res => {
                 setTemas(res.data)
