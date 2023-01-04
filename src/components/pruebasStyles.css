@@ -92,6 +92,12 @@
         .data{
             width: 83px !important;
         }
+        .topics-table>*:first-child{
+            width: 90%;
+        }
+        .topics-table>*:not(:first-child){
+            width: 90%;
+        }
     }
 
     .data{
