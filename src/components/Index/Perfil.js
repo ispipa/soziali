@@ -40,11 +40,11 @@ const Perfil =  () => {
             })
             .catch(error => {
                 console.log(error);
-                const { code } = error.response;
+                /*const { code } = error.response;
                 console.log(code);
                 if(code === "5"){
                     setUserErr(true)
-                }
+                }*/
             })
     }
 
